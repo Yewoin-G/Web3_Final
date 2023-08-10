@@ -1,0 +1,125 @@
+:root {
+    --site-color-01: #c13584;
+    --site-color-01-hover: #9e2f6e;
+  }
+  body {
+    background-color: ##1a253a;
+  }
+  body:after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(https://cdn.glitch.global/e58753b9-ec05-4997-b357-efd4e32e00f6/facebook%20logo.png?v=1687257953818)
+      url(https://cdn.glitch.global/e58753b9-ec05-4997-b357-efd4e32e00f6/Insta%20logo.png?v=1687257953369);
+  }
+  
+  h1 {
+    font-size: 26px;
+    line-height: 32px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  h1 {
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    font-family: Roboto;
+  }
+  a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    font-family: Roboto;
+    cursor: pointer;
+  }
+  .header-main {
+    position:fixed;
+    top:0;
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    z-index:1000;
+  }
+  
+  .header-main-logo {
+    width: fit-content;
+    height: 100%;
+  
+    padding-left: 60px;
+    display: flex;
+  }
+  
+  .header-main-logo img {
+    height: 50px;
+    align-self: center;
+  }
+  
+  .header-main-nav {
+    width: fit-content;
+  
+    height: 100%;
+  }
+  
+  .header-main-nav ul {
+    list-style: none;
+    margin-left: 30px;
+  }
+  .header-main-nav ul li {
+    display: inline;
+    float: left;
+  }
+  .header-main-nav ul li a {
+    padding: 0 10px 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    color: #000000;
+    display: block;
+    
+    height: 100%;
+  }
+  
+  .header-main-sm {
+    width: fit-content;
+    height: 100%;
+  
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  
+  .header-main-sm-fb {
+    width: 20px;
+    height: 20px;
+    background-image: url(https://cdn.glitch.global/e58753b9-ec05-4997-b357-efd4e32e00f6/facebook%20logo%20black.png?v=1687257953618);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header-main-sm-fb:hover {
+    background-image: url(https://cdn.glitch.global/e58753b9-ec05-4997-b357-efd4e32e00f6/facebook%20logo.png?v=1687257953818);
+  }
+  
+  .header-main-sm-in {
+    width: 20px;
+    height: 20px;
+    background-image: url(https://cdn.glitch.global/e58753b9-ec05-4997-b357-efd4e32e00f6/Insta%20logo%20black.png?v=1687257953122);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .header-main-sm-in:hover {
+    background-image: url(https://cdn.glitch.global/e58753b9-ec05-4997-b357-efd4e32e00f6/Insta%20logo.png?v=1687257953369);
+  }
+  
+  .header-main-nav ul li a:hover {
+    color: #c13584;
+  }
+  
+  

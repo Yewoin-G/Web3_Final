@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI2XR</title>
+
+  <link rel="stylesheet" href="/reset.css" />
+  <link rel="stylesheet" href="/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1900&display=swap"
+        rel="stylesheet">
+        
+  
+</head>
+<body>
+  <header class="header-main">
+    <div class="header-main-logo">
+      <img src="img/logo.png" alt="AI2XR">
+      <nav class="header-main-nav">
+        <ul>
+          <li><a href="index.html" title="Home page">HOME</a></li>
+          <li><a href="index02.html" title="Learn more">Explore</a></li>
+          <!-- <li><a href="#" title="Sign up">PORTFOLIO</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="header-main-sm">
+      <a href="https://www.facebook.com" target="_blank" rel="noopener"><div class="header-main-sm-fb" alt="Facebook"></div></a>
+      <a href="https://www.instagram.com" target="_blank" rel="noopener"><div class="header-main-sm-in" alt="Instagram"></div></a>
+    </div>
+  </header>
+  <div id="focus"></div>
+  <div class="hero">
+    <img src="./assets/city04.jpg" alt="" />
+    <video autoplay loop muted playsinline class="hero-video" src="./assets/smoke02.mp4" alt=""></video>
+    
+    <main>
+      <div class="main-intro">
+        <h1>Real Time<br>Generative <br>AI 2 XR</h1>
+      
+                
+        <!-- <a class="explore-button" href="index02.html">Explore</a> -->
+      </div>
+<!-- 
+     <div class="main-quotes">
+      <p>Augment and Amplify <br>Any Space <br><br>-with AI2XR</p>
+      <p>Visualize, Audiolize, Personalize<br>Your Space.<br><br>- with AI2XR</p>
+    </div> -->
+     
+    </main>
+  
+  </div>
+  
+  <script>
+    let focus = document.getElementById("focus");
+    let focusHalfWidth = focus.offsetWidth / 2;
+    document.onmousemove = function (e) {
+      focus.style.left = e.pageX - focusHalfWidth + "px";
+      focus.style.top = e.pageY - focusHalfWidth + "px";
+    };
+  </script>
+</body>
+</html>
