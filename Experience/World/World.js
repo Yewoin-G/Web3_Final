@@ -22,6 +22,9 @@ export default class World {
             this.room = new Room();
             this.floor = new Floor();
             this.controls = new Controls();
+
+            const loadingEl = document.querySelector('.loading');
+            loadingEl.parentNode.removeChild(loadingEl);
         });      
         
         this.theme.on("switch", (theme)=>{

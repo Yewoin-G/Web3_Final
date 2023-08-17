@@ -75,7 +75,7 @@ h1, section, p, span, svg {
   align-items: center;
   top: 48px;
   right: 48px;
-  z-index: 99999999999999;
+  z-index: 100;
 }
 
 .sun-wrapper, .moon-wrapper {
